@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Elo_Itself",
+        "repositoryURL": "https://github.com/dzAtZJU/Elo_Itself",
+        "state": {
+          "branch": "master",
+          "revision": "23160d483e570493659d26bf75b4fae60a38fbf6",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

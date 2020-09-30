@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,6 +23,8 @@
 		89A14C1925241CE200AA3DF7 /* Comu_Respond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C1825241CE200AA3DF7 /* Comu_Respond.swift */; };
 		89A14C1B25241D1100AA3DF7 /* Comu_Initiative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C1A25241D1100AA3DF7 /* Comu_Initiative.swift */; };
 		89A14C1D25241DC700AA3DF7 /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C1C25241DC700AA3DF7 /* Training.swift */; };
+		89A14C782524306500AA3DF7 /* Elo_Itself in Frameworks */ = {isa = PBXBuildFile; productRef = 89A14C772524306500AA3DF7 /* Elo_Itself */; };
+		89A14C7A2524324F00AA3DF7 /* Approach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C792524324F00AA3DF7 /* Approach.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,7 @@
 		89A14C1825241CE200AA3DF7 /* Comu_Respond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comu_Respond.swift; sourceTree = "<group>"; };
 		89A14C1A25241D1100AA3DF7 /* Comu_Initiative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comu_Initiative.swift; sourceTree = "<group>"; };
 		89A14C1C25241DC700AA3DF7 /* Training.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training.swift; sourceTree = "<group>"; };
+		89A14C792524324F00AA3DF7 /* Approach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Approach.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A14C782524306500AA3DF7 /* Elo_Itself in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +87,7 @@
 				89A14C0F2524087B00AA3DF7 /* Equipment.swift */,
 				89A14C1125240FE800AA3DF7 /* Emotion.swift */,
 				89A14C13252412F900AA3DF7 /* Payback.swift */,
+				89A14C792524324F00AA3DF7 /* Approach.swift */,
 			);
 			path = "Intimacy-Semantics";
 			sourceTree = "<group>";
@@ -129,6 +134,9 @@
 			dependencies = (
 			);
 			name = "Intimacy-Semantics";
+			packageProductDependencies = (
+				89A14C772524306500AA3DF7 /* Elo_Itself */,
+			);
 			productName = "Intimacy-Semantics";
 			productReference = 89A14BF12524068000AA3DF7 /* Intimacy-Semantics.app */;
 			productType = "com.apple.product-type.application";
@@ -157,6 +165,9 @@
 				Base,
 			);
 			mainGroup = 89A14BE82524068000AA3DF7;
+			packageReferences = (
+				89A14C762524306500AA3DF7 /* XCRemoteSwiftPackageReference "Elo_Itself" */,
+			);
 			productRefGroup = 89A14BF22524068000AA3DF7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -187,6 +198,7 @@
 				89A14C0E2524081500AA3DF7 /* Look.swift in Sources */,
 				89A14C0C252406BD00AA3DF7 /* SocialSkill.swift in Sources */,
 				89A14BFB2524068000AA3DF7 /* Document.swift in Sources */,
+				89A14C7A2524324F00AA3DF7 /* Approach.swift in Sources */,
 				89A14C1225240FE800AA3DF7 /* Emotion.swift in Sources */,
 				89A14BF92524068000AA3DF7 /* DocumentViewController.swift in Sources */,
 				89A14C1B25241D1100AA3DF7 /* Comu_Initiative.swift in Sources */,
@@ -394,6 +406,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		89A14C762524306500AA3DF7 /* XCRemoteSwiftPackageReference "Elo_Itself" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dzAtZJU/Elo_Itself";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		89A14C772524306500AA3DF7 /* Elo_Itself */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89A14C762524306500AA3DF7 /* XCRemoteSwiftPackageReference "Elo_Itself" */;
+			productName = Elo_Itself;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 89A14BE92524068000AA3DF7 /* Project object */;
 }

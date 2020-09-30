@@ -5,26 +5,7 @@
 //  Created by Zhou Wei Ran on 2020/9/30.
 //  Copyright © 2020 Paper Scratch. All rights reserved.
 //
-
-protocol Has_Critaria {
-    var critaria: [String] {
-        get
-    }
-}
-
-protocol Has_Tasks {
-    var tasks: [Task] {
-        get
-    }
-}
-
-protocol Has_AfterTasks {
-    var afterTasks: [Task] {
-        get
-    }
-}
-
-protocol Task {}
+import Elo_Itself
 
 struct Small_Chat: Has_Critaria, Has_Tasks, Has_AfterTasks {
     var tasks: [Task] = {
@@ -38,13 +19,14 @@ struct Small_Chat: Has_Critaria, Has_Tasks, Has_AfterTasks {
     
     var critaria: [String] = {
         var tmp = [String]()
+        tmp.append("Focus")
         tmp.append("Watch for chat flow")
         return tmp
     }()
     
     var afterTasks: [Task] = {
         var tmp = [Task]()
-        tmnp.apend(Deduce_Her_Character())
+        tmp.append(Deduce_Her_Character())
         return tmp
     }()
 }
