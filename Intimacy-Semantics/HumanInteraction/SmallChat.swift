@@ -42,7 +42,12 @@ struct Detect_Herself_Change: Task {
 }
 
 struct Detect_Relationship: Task {
-    var item = "对方拉近关系的付出"
+    var item: [String] = {
+        var tmp = [String]()
+        tmp.append("对方拉近关系的付出")
+        tmp.append("关系的停滞")
+        return tmp
+    }()
 }
 
 struct Watch: Task, Has_Tasks {
