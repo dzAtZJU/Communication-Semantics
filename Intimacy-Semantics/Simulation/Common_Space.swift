@@ -17,13 +17,14 @@ struct WeWork: Has_Pretty {
     var items: [Has_Pretty] = {
         var tmp = [Has_Pretty]()
         tmp.append(开门扶门())
-        tmp.append(楼梯()
+        tmp.append(楼梯())
         tmp.append(茶水间())
         tmp.append(卫生间进出())
         return tmp
     }()
     struct 开门扶门: Has_Pretty {}
     struct 楼梯: Has_Pretty {}
+    struct 工位: Has_Pretty {}
     struct 茶水间: Has_Pretty {
         var timing = "背对过道，人来了可以回头"
     }

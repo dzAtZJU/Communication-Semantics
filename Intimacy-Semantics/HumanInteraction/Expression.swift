@@ -10,7 +10,12 @@ import Elo_Itself
 protocol Expression {}
 
 struct 站位_and_角度: Expression {
-    
+    var item: [Expression] = {
+        var tmp = [Expression]()
+        tmp.append(用站位挡外人的视线())
+        return tmp
+    }()
+    struct 用站位挡外人的视线: Expression {}
 }
 
 struct Gesture: Expression, Has_Critaria {
@@ -38,6 +43,10 @@ struct Speaking: Expression {
         tmp.append(WantTo_End_Talking())
         return tmp
     }()
+    
+    struct GoodBye: Expression {
+        var my_expression = "走啦，拜拜"
+    }
     
     struct Made_a_Decision: Expression {
         var my_expression = "我决定 ... "

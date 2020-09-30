@@ -7,7 +7,16 @@
 //
 import Elo_Itself
 
-struct Small_Chat: Has_Tasks, Has_AfterTasks {
+struct SmallChat: Has_Tasks, Has_AfterTasks {
+    var expressions: [Expression] = {
+        var tmp = [Expression]()
+        tmp.append(站位_and_角度())
+        tmp.append(Voice())
+        tmp.append(Gesture())
+        tmp.append(Speaking())
+        return tmp
+    }()
+    
     var tasks: [Task] = {
         var tmp = [Task]()
         tmp.append(Watch())
@@ -20,21 +29,6 @@ struct Small_Chat: Has_Tasks, Has_AfterTasks {
         var tmp = [Task]()
         tmp.append(Deduce_Her_Character())
         tmp.append(Detect_Relationship())
-        return tmp
-    }()
-    
-    var expressions: [Expression] = {
-        var tmp = [Expression]()
-        tmp.append(站位_and_角度())
-        tmp.append(Voice())
-        tmp.append(Gesture())
-        tmp.append(Speaking())
-        return tmp
-    }()
-    
-    var microEnvironments: [MicroEnvironment] = {
-        var tmp = [MicroEnvironment]()
-        tmp.append(用站位挡外人的视线())
         return tmp
     }()
 }
@@ -60,12 +54,18 @@ struct Watch: Task, Has_Tasks {
         return tmp
     }()
     
-    struct Capture_Facial_Expression: Task {
-        
+    struct Capture_Facial_Expression: Task, Has_Critaria {
+        var critaria: [String] = {
+            var tmp = [String]()
+            tmp.append("聚焦")
+            return tmp
+        }()
     }
+    
     struct See_Movement: Task {
         
     }
+    
     struct 细节描述: Task {
         
     }

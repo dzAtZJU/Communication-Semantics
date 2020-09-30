@@ -17,14 +17,13 @@
 		89A14C0E2524081500AA3DF7 /* Common_Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C0D2524081500AA3DF7 /* Common_Space.swift */; };
 		89A14C102524087B00AA3DF7 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C0F2524087B00AA3DF7 /* Simulation.swift */; };
 		89A14C14252412F900AA3DF7 /* Payback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C13252412F900AA3DF7 /* Payback.swift */; };
-		89A14C162524136300AA3DF7 /* Small_Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C152524136300AA3DF7 /* Small_Chat.swift */; };
+		89A14C162524136300AA3DF7 /* SmallChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C152524136300AA3DF7 /* SmallChat.swift */; };
 		89A14C1B25241D1100AA3DF7 /* Feelings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C1A25241D1100AA3DF7 /* Feelings.swift */; };
 		89A14C1D25241DC700AA3DF7 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C1C25241DC700AA3DF7 /* Expression.swift */; };
 		89A14C782524306500AA3DF7 /* Elo_Itself in Frameworks */ = {isa = PBXBuildFile; productRef = 89A14C772524306500AA3DF7 /* Elo_Itself */; };
 		89A14C7A2524324F00AA3DF7 /* Approach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C792524324F00AA3DF7 /* Approach.swift */; };
 		89A14C7F2524797E00AA3DF7 /* Venture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C7E2524797E00AA3DF7 /* Venture.swift */; };
 		89A14C8125247E9E00AA3DF7 /* Timing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C8025247E9E00AA3DF7 /* Timing.swift */; };
-		89A14C842524915600AA3DF7 /* MicroEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C832524915600AA3DF7 /* MicroEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,13 +39,12 @@
 		89A14C0D2524081500AA3DF7 /* Common_Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common_Space.swift; sourceTree = "<group>"; };
 		89A14C0F2524087B00AA3DF7 /* Simulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
 		89A14C13252412F900AA3DF7 /* Payback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payback.swift; sourceTree = "<group>"; };
-		89A14C152524136300AA3DF7 /* Small_Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Small_Chat.swift; sourceTree = "<group>"; };
+		89A14C152524136300AA3DF7 /* SmallChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallChat.swift; sourceTree = "<group>"; };
 		89A14C1A25241D1100AA3DF7 /* Feelings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feelings.swift; sourceTree = "<group>"; };
 		89A14C1C25241DC700AA3DF7 /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
 		89A14C792524324F00AA3DF7 /* Approach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Approach.swift; sourceTree = "<group>"; };
 		89A14C7E2524797E00AA3DF7 /* Venture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venture.swift; sourceTree = "<group>"; };
 		89A14C8025247E9E00AA3DF7 /* Timing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timing.swift; sourceTree = "<group>"; };
-		89A14C832524915600AA3DF7 /* MicroEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +80,7 @@
 			children = (
 				89A14C7C2524775200AA3DF7 /* Simulation */,
 				89A14C7D2524795700AA3DF7 /* Venture */,
-				89A14C1725241CCF00AA3DF7 /* Communication */,
-				89A14C822524911500AA3DF7 /* MicroEnvironment */,
+				89A14C1725241CCF00AA3DF7 /* HumanInteraction */,
 				89A14C0A2524068C00AA3DF7 /* App */,
 				89A14C13252412F900AA3DF7 /* Payback.swift */,
 				89A14C792524324F00AA3DF7 /* Approach.swift */,
@@ -106,14 +103,14 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		89A14C1725241CCF00AA3DF7 /* Communication */ = {
+		89A14C1725241CCF00AA3DF7 /* HumanInteraction */ = {
 			isa = PBXGroup;
 			children = (
 				89A14C1C25241DC700AA3DF7 /* Expression.swift */,
-				89A14C152524136300AA3DF7 /* Small_Chat.swift */,
+				89A14C152524136300AA3DF7 /* SmallChat.swift */,
 				89A14C1A25241D1100AA3DF7 /* Feelings.swift */,
 			);
-			path = Communication;
+			path = HumanInteraction;
 			sourceTree = "<group>";
 		};
 		89A14C7C2524775200AA3DF7 /* Simulation */ = {
@@ -132,14 +129,6 @@
 				89A14C8025247E9E00AA3DF7 /* Timing.swift */,
 			);
 			path = Venture;
-			sourceTree = "<group>";
-		};
-		89A14C822524911500AA3DF7 /* MicroEnvironment */ = {
-			isa = PBXGroup;
-			children = (
-				89A14C832524915600AA3DF7 /* MicroEnvironment.swift */,
-			);
-			path = MicroEnvironment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,9 +216,8 @@
 				89A14C7F2524797E00AA3DF7 /* Venture.swift in Sources */,
 				89A14C1B25241D1100AA3DF7 /* Feelings.swift in Sources */,
 				89A14BF72524068000AA3DF7 /* DocumentBrowserViewController.swift in Sources */,
-				89A14C842524915600AA3DF7 /* MicroEnvironment.swift in Sources */,
 				89A14C1D25241DC700AA3DF7 /* Expression.swift in Sources */,
-				89A14C162524136300AA3DF7 /* Small_Chat.swift in Sources */,
+				89A14C162524136300AA3DF7 /* SmallChat.swift in Sources */,
 				89A14C102524087B00AA3DF7 /* Simulation.swift in Sources */,
 				89A14BF52524068000AA3DF7 /* AppDelegate.swift in Sources */,
 				89A14C14252412F900AA3DF7 /* Payback.swift in Sources */,
