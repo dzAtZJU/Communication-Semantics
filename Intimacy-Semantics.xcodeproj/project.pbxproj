@@ -14,6 +14,15 @@
 		89A14BFE2524068000AA3DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A14BFC2524068000AA3DF7 /* Main.storyboard */; };
 		89A14C002524068500AA3DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A14BFF2524068500AA3DF7 /* Assets.xcassets */; };
 		89A14C032524068500AA3DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A14C012524068500AA3DF7 /* LaunchScreen.storyboard */; };
+		89A14C0C252406BD00AA3DF7 /* SocialSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C0B252406BD00AA3DF7 /* SocialSkill.swift */; };
+		89A14C0E2524081500AA3DF7 /* Look.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C0D2524081500AA3DF7 /* Look.swift */; };
+		89A14C102524087B00AA3DF7 /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C0F2524087B00AA3DF7 /* Equipment.swift */; };
+		89A14C1225240FE800AA3DF7 /* Emotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C1125240FE800AA3DF7 /* Emotion.swift */; };
+		89A14C14252412F900AA3DF7 /* Payback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C13252412F900AA3DF7 /* Payback.swift */; };
+		89A14C162524136300AA3DF7 /* Communication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C152524136300AA3DF7 /* Communication.swift */; };
+		89A14C1925241CE200AA3DF7 /* Comu_Respond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C1825241CE200AA3DF7 /* Comu_Respond.swift */; };
+		89A14C1B25241D1100AA3DF7 /* Comu_Initiative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C1A25241D1100AA3DF7 /* Comu_Initiative.swift */; };
+		89A14C1D25241DC700AA3DF7 /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C1C25241DC700AA3DF7 /* Training.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,15 @@
 		89A14BFF2524068500AA3DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89A14C022524068500AA3DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89A14C042524068500AA3DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A14C0B252406BD00AA3DF7 /* SocialSkill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialSkill.swift; sourceTree = "<group>"; };
+		89A14C0D2524081500AA3DF7 /* Look.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Look.swift; sourceTree = "<group>"; };
+		89A14C0F2524087B00AA3DF7 /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
+		89A14C1125240FE800AA3DF7 /* Emotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emotion.swift; sourceTree = "<group>"; };
+		89A14C13252412F900AA3DF7 /* Payback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payback.swift; sourceTree = "<group>"; };
+		89A14C152524136300AA3DF7 /* Communication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Communication.swift; sourceTree = "<group>"; };
+		89A14C1825241CE200AA3DF7 /* Comu_Respond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comu_Respond.swift; sourceTree = "<group>"; };
+		89A14C1A25241D1100AA3DF7 /* Comu_Initiative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comu_Initiative.swift; sourceTree = "<group>"; };
+		89A14C1C25241DC700AA3DF7 /* Training.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,20 @@
 		89A14BF32524068000AA3DF7 /* Intimacy-Semantics */ = {
 			isa = PBXGroup;
 			children = (
+				89A14C1725241CCF00AA3DF7 /* Communication */,
+				89A14C0B252406BD00AA3DF7 /* SocialSkill.swift */,
+				89A14C0A2524068C00AA3DF7 /* App */,
+				89A14C0D2524081500AA3DF7 /* Look.swift */,
+				89A14C0F2524087B00AA3DF7 /* Equipment.swift */,
+				89A14C1125240FE800AA3DF7 /* Emotion.swift */,
+				89A14C13252412F900AA3DF7 /* Payback.swift */,
+			);
+			path = "Intimacy-Semantics";
+			sourceTree = "<group>";
+		};
+		89A14C0A2524068C00AA3DF7 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				89A14BF42524068000AA3DF7 /* AppDelegate.swift */,
 				89A14BF62524068000AA3DF7 /* DocumentBrowserViewController.swift */,
 				89A14BF82524068000AA3DF7 /* DocumentViewController.swift */,
@@ -67,7 +99,18 @@
 				89A14C012524068500AA3DF7 /* LaunchScreen.storyboard */,
 				89A14C042524068500AA3DF7 /* Info.plist */,
 			);
-			path = "Intimacy-Semantics";
+			path = App;
+			sourceTree = "<group>";
+		};
+		89A14C1725241CCF00AA3DF7 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				89A14C152524136300AA3DF7 /* Communication.swift */,
+				89A14C1825241CE200AA3DF7 /* Comu_Respond.swift */,
+				89A14C1A25241D1100AA3DF7 /* Comu_Initiative.swift */,
+				89A14C1C25241DC700AA3DF7 /* Training.swift */,
+			);
+			path = Communication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +184,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A14C0E2524081500AA3DF7 /* Look.swift in Sources */,
+				89A14C0C252406BD00AA3DF7 /* SocialSkill.swift in Sources */,
 				89A14BFB2524068000AA3DF7 /* Document.swift in Sources */,
+				89A14C1225240FE800AA3DF7 /* Emotion.swift in Sources */,
 				89A14BF92524068000AA3DF7 /* DocumentViewController.swift in Sources */,
+				89A14C1B25241D1100AA3DF7 /* Comu_Initiative.swift in Sources */,
+				89A14C1925241CE200AA3DF7 /* Comu_Respond.swift in Sources */,
 				89A14BF72524068000AA3DF7 /* DocumentBrowserViewController.swift in Sources */,
+				89A14C1D25241DC700AA3DF7 /* Training.swift in Sources */,
+				89A14C162524136300AA3DF7 /* Communication.swift in Sources */,
+				89A14C102524087B00AA3DF7 /* Equipment.swift in Sources */,
 				89A14BF52524068000AA3DF7 /* AppDelegate.swift in Sources */,
+				89A14C14252412F900AA3DF7 /* Payback.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HTG5RPJ6QF;
-				INFOPLIST_FILE = "Intimacy-Semantics/Info.plist";
+				INFOPLIST_FILE = "Intimacy-Semantics/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +360,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HTG5RPJ6QF;
-				INFOPLIST_FILE = "Intimacy-Semantics/Info.plist";
+				INFOPLIST_FILE = "Intimacy-Semantics/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
