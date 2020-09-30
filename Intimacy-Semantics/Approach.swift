@@ -7,23 +7,15 @@
 //
 import Elo_Itself
 
-protocol Require_Manifest {}
-protocol Manifest {
-    var manifest: Require_Manifest {
+protocol To_Manifest {}
+protocol Can_Manifest {
+    var canManifest: To_Manifest {
         get
     }
 }
 
-struct Behavior_and_Cognitive_Pattern: Require_Manifest {
-    var way_of_manifest: [String] = {
-        var tmp = [String]()
-        tmp.append("Involved in Social Situation")
-        return tmp
-    }()
-}
-
-struct Involve_in_Social_Situation: Task, Has_AfterTasks, Manifest {
-    var manifest: Require_Manifest = Behavior_and_Cognitive_Pattern()
+struct Involve_in_Social_Situation: Task, Has_AfterTasks, Can_Manifest {
+    var canManifest: To_Manifest = Behavior_and_Cognitive_Pattern()
     
     var afterTasks: [Task] = {
         var tmp = [Task]()
@@ -32,12 +24,16 @@ struct Involve_in_Social_Situation: Task, Has_AfterTasks, Manifest {
         return tmp
     }()
 }
+
+struct Behavior_and_Cognitive_Pattern: To_Manifest {}
 struct Replay: Task {}
 extension Semantic_Discrimination: Task {}
 
 
+// Brain Simulation
 // 在写作连接中 inspirative 和 innotive 得到 emerge
 // 看只是用来判断是否是有价值的材料，本身不产生 product
+// rich structure
 
 // 加入价值观考量，否则只是结构化的教条主义
 // 早上的三次早上好
