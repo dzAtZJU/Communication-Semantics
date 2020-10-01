@@ -20,7 +20,6 @@ struct SmallChat: Has_Tasks, Has_AfterTasks {
     var tasks: [Task] = {
         var tmp = [Task]()
         tmp.append(Watch())
-        tmp.append(Detect_Feelings())
         tmp.append(Detect_Herself_Change())
         return tmp
     }()

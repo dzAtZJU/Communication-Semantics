@@ -16,7 +16,6 @@
 		89A14C032524068500AA3DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A14C012524068500AA3DF7 /* LaunchScreen.storyboard */; };
 		89A14C0E2524081500AA3DF7 /* Common_Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C0D2524081500AA3DF7 /* Common_Space.swift */; };
 		89A14C102524087B00AA3DF7 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C0F2524087B00AA3DF7 /* Simulation.swift */; };
-		89A14C14252412F900AA3DF7 /* Payback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C13252412F900AA3DF7 /* Payback.swift */; };
 		89A14C162524136300AA3DF7 /* SmallChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C152524136300AA3DF7 /* SmallChat.swift */; };
 		89A14C1B25241D1100AA3DF7 /* Feeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C1A25241D1100AA3DF7 /* Feeling.swift */; };
 		89A14C1D25241DC700AA3DF7 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C1C25241DC700AA3DF7 /* Expression.swift */; };
@@ -45,7 +44,6 @@
 		89A14C042524068500AA3DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89A14C0D2524081500AA3DF7 /* Common_Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common_Space.swift; sourceTree = "<group>"; };
 		89A14C0F2524087B00AA3DF7 /* Simulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
-		89A14C13252412F900AA3DF7 /* Payback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payback.swift; sourceTree = "<group>"; };
 		89A14C152524136300AA3DF7 /* SmallChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallChat.swift; sourceTree = "<group>"; };
 		89A14C1A25241D1100AA3DF7 /* Feeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feeling.swift; sourceTree = "<group>"; };
 		89A14C1C25241DC700AA3DF7 /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
@@ -76,7 +74,7 @@
 		89A14BE82524068000AA3DF7 = {
 			isa = PBXGroup;
 			children = (
-				89A14BF32524068000AA3DF7 /* Intimacy-Semantics */,
+				89A14BF32524068000AA3DF7 /* Communication-Semantics */,
 				89A14BF22524068000AA3DF7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,17 +87,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		89A14BF32524068000AA3DF7 /* Intimacy-Semantics */ = {
+		89A14BF32524068000AA3DF7 /* Communication-Semantics */ = {
 			isa = PBXGroup;
 			children = (
 				89A14C7C2524775200AA3DF7 /* Simulation */,
 				89A14C7D2524795700AA3DF7 /* Venture */,
 				89A14C1725241CCF00AA3DF7 /* HumanInteraction */,
 				89A14C0A2524068C00AA3DF7 /* App */,
-				89A14C13252412F900AA3DF7 /* Payback.swift */,
 				89A14C792524324F00AA3DF7 /* Approach.swift */,
 			);
-			path = "Intimacy-Semantics";
+			path = "Communication-Semantics";
 			sourceTree = "<group>";
 		};
 		89A14C0A2524068C00AA3DF7 /* App */ = {
@@ -206,7 +203,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89A14BEC2524068000AA3DF7 /* Build configuration list for PBXProject "Communication_Semantics" */;
+			buildConfigurationList = 89A14BEC2524068000AA3DF7 /* Build configuration list for PBXProject "Communication-Semantics" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -262,7 +259,6 @@
 				89A14BF52524068000AA3DF7 /* AppDelegate.swift in Sources */,
 				89A14C962526650500AA3DF7 /* Handle_Feeling.swift in Sources */,
 				89A14C98252667C700AA3DF7 /* Polite_Words.swift in Sources */,
-				89A14C14252412F900AA3DF7 /* Payback.swift in Sources */,
 				89A14C8C2526288100AA3DF7 /* Feeling+.swift in Sources */,
 				89A14C8E25262FEA00AA3DF7 /* BodyLanguage.swift in Sources */,
 			);
@@ -443,7 +439,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89A14BEC2524068000AA3DF7 /* Build configuration list for PBXProject "Communication_Semantics" */ = {
+		89A14BEC2524068000AA3DF7 /* Build configuration list for PBXProject "Communication-Semantics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89A14C052524068500AA3DF7 /* Debug */,
