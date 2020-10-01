@@ -8,8 +8,8 @@
 import Elo_Itself
 
 struct SmallChat: Has_Tasks, Has_AfterTasks {
-    var expressions: [Expression] = {
-        var tmp = [Expression]()
+    var expressions: [Expression_Ingredient] = {
+        var tmp = [Expression_Ingredient]()
         tmp.append(站位_and_角度())
         tmp.append(Voice())
         tmp.append(Gesture())

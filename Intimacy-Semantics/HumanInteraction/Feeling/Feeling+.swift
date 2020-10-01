@@ -1,31 +1,11 @@
 //
-//  Comu_Initiative.swift
+//  Feeling+.swift
 //  Intimacy-Semantics
 //
-//  Created by Zhou Wei Ran on 2020/9/30.
+//  Created by Zhou Wei Ran on 2020/10/1.
 //  Copyright © 2020 Paper Scratch. All rights reserved.
 //
 import Elo_Itself
-
-struct Detect_Feelings: Task {
-    var her_feelings: [Feeling] = {
-        var tmp = [Feeling]()
-        tmp.append(Wish())
-        tmp.append(Regret())
-        tmp.append(Feeling_about_Another())
-        tmp.append(戒备())
-        tmp.append(疑惑())
-        tmp.append(求助的眼神_to_自言自语())
-        tmp.append(Invite())
-        tmp.append(Farewell())
-        tmp.append(Encourage())
-        tmp.append(Uncertain())
-        tmp.append(Curious())
-        return tmp
-    }()
-}
-
-protocol Feeling {}
 
 struct Wish: Feeling, Has_Tasks {
     var tasks: [Task] = {
@@ -163,28 +143,12 @@ struct Uncertain: Feeling, Has_Tasks {
     struct Opinion: Task {}
 }
 
-struct Curious: Feeling, Has_Tasks {
-    var tasks: [Task] = {
-        var tmp = [Task]()
-        tmp.append(Avoid_Hiding())
-        return tmp
-    }()
-    
-    struct Avoid_Hiding: Task {
-        var say = "I am doing a small personal project."
-    }
-}
-
 struct Self_Mockery: Feeling, Has_Tasks {
     var tasks: [Task] = {
         var tmp = [Task]()
-        tmp.append(Extend())
+        tmp.append(Extend_Here_There())
         return tmp
     }()
-    
-    struct Extend: Task {
-        var say = "自己当老板辛苦不"
-    }
 }
 
 struct Delicate: Feeling, Has_Tasks {
