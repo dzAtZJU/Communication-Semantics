@@ -30,6 +30,7 @@
 		89A14C94252664E600AA3DF7 /* Express_Feeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C93252664E600AA3DF7 /* Express_Feeling.swift */; };
 		89A14C962526650500AA3DF7 /* Handle_Feeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C952526650500AA3DF7 /* Handle_Feeling.swift */; };
 		89A14C98252667C700AA3DF7 /* Polite_Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14C97252667C700AA3DF7 /* Polite_Words.swift */; };
+		89A14CA625284E2900AA3DF7 /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A14CA525284E2900AA3DF7 /* Space.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		89A14C93252664E600AA3DF7 /* Express_Feeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Express_Feeling.swift; sourceTree = "<group>"; };
 		89A14C952526650500AA3DF7 /* Handle_Feeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handle_Feeling.swift; sourceTree = "<group>"; };
 		89A14C97252667C700AA3DF7 /* Polite_Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polite_Words.swift; sourceTree = "<group>"; };
+		89A14CA525284E2900AA3DF7 /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,13 +147,10 @@
 		89A14C8725260F3500AA3DF7 /* Expression */ = {
 			isa = PBXGroup;
 			children = (
+				89A14CA425284E1B00AA3DF7 /* Space */,
+				89A14CA325284DC100AA3DF7 /* Vocal */,
 				89A14C1C25241DC700AA3DF7 /* Expression.swift */,
 				89A14C8925260FE600AA3DF7 /* Communication.swift */,
-				89A14C8D25262FEA00AA3DF7 /* BodyLanguage.swift */,
-				89A14C9125263F9300AA3DF7 /* Vocal.swift */,
-				89A14C93252664E600AA3DF7 /* Express_Feeling.swift */,
-				89A14C952526650500AA3DF7 /* Handle_Feeling.swift */,
-				89A14C97252667C700AA3DF7 /* Polite_Words.swift */,
 			);
 			path = Expression;
 			sourceTree = "<group>";
@@ -163,6 +162,26 @@
 				89A14C8B2526288100AA3DF7 /* Feeling+.swift */,
 			);
 			path = Feeling;
+			sourceTree = "<group>";
+		};
+		89A14CA325284DC100AA3DF7 /* Vocal */ = {
+			isa = PBXGroup;
+			children = (
+				89A14C952526650500AA3DF7 /* Handle_Feeling.swift */,
+				89A14C93252664E600AA3DF7 /* Express_Feeling.swift */,
+				89A14C97252667C700AA3DF7 /* Polite_Words.swift */,
+				89A14C9125263F9300AA3DF7 /* Vocal.swift */,
+			);
+			path = Vocal;
+			sourceTree = "<group>";
+		};
+		89A14CA425284E1B00AA3DF7 /* Space */ = {
+			isa = PBXGroup;
+			children = (
+				89A14C8D25262FEA00AA3DF7 /* BodyLanguage.swift */,
+				89A14CA525284E2900AA3DF7 /* Space.swift */,
+			);
+			path = Space;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +271,7 @@
 				89A14C1B25241D1100AA3DF7 /* Feeling.swift in Sources */,
 				89A14C8A25260FE600AA3DF7 /* Communication.swift in Sources */,
 				89A14BF72524068000AA3DF7 /* DocumentBrowserViewController.swift in Sources */,
+				89A14CA625284E2900AA3DF7 /* Space.swift in Sources */,
 				89A14C1D25241DC700AA3DF7 /* Expression.swift in Sources */,
 				89A14C162524136300AA3DF7 /* SmallChat.swift in Sources */,
 				89A14C102524087B00AA3DF7 /* Simulation.swift in Sources */,

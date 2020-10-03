@@ -7,34 +7,7 @@
 //
 import Elo_Itself
 
-struct StandStill: BodyLanguage {
-    var direction: Direction
-    var eyeFocus: Eye_Focus
-}
-
-struct Walking: BodyLanguage {
-    var lineOfSight: Line_of_Sight
-}
-
 protocol BodyLanguage: Expression_Ingredient {}
-
-protocol Space_Ingredient {}
-
-enum Direction: Space_Ingredient {
-    case BackSide
-    case Side
-    case Front
-}
-
-enum Line_of_Sight: Space_Ingredient {
-    case canNot_See
-    case Trigger_Turn
-}
-
-enum Eye_Focus: Space_Ingredient {
-    case Eye
-    case Mouth
-}
 
 struct 站位_and_角度: BodyLanguage {
     var item: [Expression_Ingredient] = {
