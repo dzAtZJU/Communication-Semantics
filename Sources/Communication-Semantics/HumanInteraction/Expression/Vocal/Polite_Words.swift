@@ -1,10 +1,4 @@
-//
-//  Polite_Words.swift
-//  Intimacy-Semantics
-//
-//  Created by Zhou Wei Ran on 2020/10/2.
-//  Copyright © 2020 Paper Scratch. All rights reserved.
-//
+
 enum Greeting: Vocal {
     // 很高兴认识你
     case はじめまして___よろしくお願いします

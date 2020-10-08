@@ -1,10 +1,4 @@
-//
-//  Feeling+.swift
-//  Intimacy-Semantics
-//
-//  Created by Zhou Wei Ran on 2020/10/1.
-//  Copyright © 2020 Paper Scratch. All rights reserved.
-//
+
 import Elo_Itself
 
 struct Wish: Feeling, Has_Tasks {
