@@ -1,7 +1,13 @@
 
 import Elo_Itself
 
-struct SmallChat: Has_Tasks, Has_AfterTasks {
+struct SmallChat: Has_Tasks, Has_AfterTasks, Has_Critaria {
+    var critaria: [String] = {
+        var tmp = [String]()
+        tmp.append("number of round")
+        return tmp
+    }()
+    
     var expressions: [Expression_Ingredient] = {
         var tmp = [Expression_Ingredient]()
         tmp.append(站位_and_角度())

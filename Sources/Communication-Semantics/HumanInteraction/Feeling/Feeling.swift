@@ -1,1 +1,1 @@
-col Feeling {}
+protocol Feeling {}
