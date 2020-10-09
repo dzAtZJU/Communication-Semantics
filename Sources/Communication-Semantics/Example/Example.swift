@@ -10,3 +10,5 @@ struct 大門未知子_米倉涼子 {}
 struct 神原晶_岸部一德 {}
 
 struct 蛭間重勝_西田敏行 {}
+
+struct Whitney_Elizabeth_Houston {}

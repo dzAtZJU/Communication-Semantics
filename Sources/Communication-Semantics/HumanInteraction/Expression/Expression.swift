@@ -13,8 +13,8 @@ struct Atmosphere: Expression_Ingredient {
     
 }
 
-struct Voice: Expression_Ingredient, Has_Critaria {
-    var critaria: [String] = {
+struct Voice: Expression_Ingredient, Has_Criterias {
+    var criterias: [String] = {
         var tmp = [String]()
         tmp.append("Loud")
         return tmp

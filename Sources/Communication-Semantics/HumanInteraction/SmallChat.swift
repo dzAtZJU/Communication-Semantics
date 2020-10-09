@@ -1,8 +1,8 @@
 
 import Elo_Itself
 
-struct SmallChat: Has_Tasks, Has_AfterTasks, Has_Critaria {
-    var critaria: [String] = {
+struct SmallChat: Has_Tasks, Has_AfterTasks, Has_Criterias {
+    var criterias: [String] = {
         var tmp = [String]()
         tmp.append("number of round")
         return tmp
@@ -58,8 +58,8 @@ struct Watch: Task, Has_Tasks {
         return tmp
     }()
     
-    struct Capture_Facial_Expression: Task, Has_Critaria {
-        var critaria: [String] = {
+    struct Capture_Facial_Expression: Task, Has_Criterias {
+        var criterias: [String] = {
             var tmp = [String]()
             tmp.append("聚焦")
             return tmp

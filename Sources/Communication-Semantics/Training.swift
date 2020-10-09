@@ -6,9 +6,7 @@
 //
 import Elo_Itself
 
-struct Involve_in_Social_Situation: Task, Has_AfterTasks, Can_Manifest {
-    var canManifest: To_Manifest = Behavior_and_Cognitive_Pattern()
-    
+struct Involve_in_Social_Situation: Task, Has_AfterTasks {
     var afterTasks: [Task] = {
         var tmp = [Task]()
         tmp.append(Replay())
