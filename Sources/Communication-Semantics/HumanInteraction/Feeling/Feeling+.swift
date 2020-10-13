@@ -1,4 +1,3 @@
-
 import Elo_Itself
 
 struct Wish: Feeling, Has_Tasks {
@@ -143,6 +142,10 @@ struct Self_Mockery: Feeling, Has_Tasks {
         tmp.append(Extend_Here_There())
         return tmp
     }()
+    
+    struct Extend_Here_There: Task, Vocal {
+        var say = "自己当老板辛苦不"
+    }
 }
 
 struct Delicate: Feeling, Has_Tasks {
@@ -173,4 +176,28 @@ struct Compliment: Feeling, Has_Tasks {
     }()
     
     struct Disscuss_Reasons: Task {}
+}
+
+struct Explaining: Feeling {}
+
+struct Feel_Disagreed_and_Invalidated: Feeling, Has_PreventiveTasks {
+    var preventiveTasks: [Task] = {
+        var tmp = [Task]()
+        tmp.append(Dont_Disagree_or_Invalidate())
+        return tmp
+    }()
+    
+    struct Dont_Disagree_or_Invalidate: Task {}
+}
+
+extension Curious: Has_Tasks {
+    public var tasks: [Task] {
+        var tmp = [Task]()
+        tmp.append(Avoid_Hiding())
+        return tmp
+    }
+    
+    struct Avoid_Hiding: Task {
+        var say = "I am doing a small personal project."
+    }
 }

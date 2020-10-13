@@ -1,11 +1,8 @@
-
-
 protocol Vocal: Expression_Ingredient {}
 
 enum Intonation: Vocal {
     case up
 }
-
 
 enum Why: Vocal {
     case 왜

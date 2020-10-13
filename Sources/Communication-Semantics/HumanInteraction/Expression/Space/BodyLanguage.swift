@@ -12,8 +12,8 @@ struct 站位_and_角度: BodyLanguage {
 }
 
 struct Gesture: BodyLanguage, Has_Criterias {
-    var criterias: [String] = {
-        var tmp = [String]()
+    var criterias: [Any] = {
+        var tmp = [Any]()
         tmp.append("Assertive")
         tmp.append("Clear")
         return tmp

@@ -1,5 +1,6 @@
-
 import Elo_Itself
+
+protocol Expression_Ingredient {}
 
 protocol Require_Vocal {
     var vocals: [Vocal] {
@@ -7,15 +8,11 @@ protocol Require_Vocal {
     }
 }
 
-protocol Expression_Ingredient {}
-
-struct Atmosphere: Expression_Ingredient {
-    
-}
+struct Atmosphere: Expression_Ingredient {}
 
 struct Voice: Expression_Ingredient, Has_Criterias {
-    var criterias: [String] = {
-        var tmp = [String]()
+    var criterias: [Any] = {
+        var tmp = [Any]()
         tmp.append("Loud")
         return tmp
     }()
