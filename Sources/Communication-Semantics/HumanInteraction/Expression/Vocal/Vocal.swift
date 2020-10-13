@@ -1,4 +1,4 @@
-protocol Vocal: Expression_Ingredient {}
+public protocol Vocal: Expression_Ingredient {}
 
 enum Intonation: Vocal {
     case up
