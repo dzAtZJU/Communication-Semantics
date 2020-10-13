@@ -15,4 +15,10 @@ public protocol Require_Vocal {
     }
 }
 
+public protocol Require_Expression {
+    var expressions: [Expression_Ingredient] {
+        get
+    }
+}
+
 
