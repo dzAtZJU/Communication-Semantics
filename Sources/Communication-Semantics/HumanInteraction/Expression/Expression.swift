@@ -9,11 +9,3 @@ public protocol Require_Vocal {
 }
 
 public struct Atmosphere: Expression_Ingredient {}
-
-public struct Voice: Expression_Ingredient, Has_Criterias {
-    public var criterias: [Any] = {
-        var tmp = [Any]()
-        tmp.append("Loud")
-        return tmp
-    }()
-}
