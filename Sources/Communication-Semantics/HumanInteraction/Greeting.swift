@@ -1,4 +1,3 @@
-
 enum Greeting: Vocal {
     // 很高兴认识你
     case はじめまして___よろしくお願いします
